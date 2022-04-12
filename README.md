@@ -11,14 +11,22 @@ In the subfolder `/tutorial/aws_kms_lambda_ethereum/` another project is placed 
 
 To deploy either one of the above introduced projects you first have to initialize your CDK v2 project, like so:
 
-| mkdir project_name |
-| cd project_name |
+```
+mkdir project_name
+cd project_name
 
-| cdk init app --language python |
+cdk init app --language python
 
-| source .venv/bin/activate |
-| python -m pip install -r requirements.txt |
+source .venv/bin/activate 
+python -m pip install -r requirements.txt
+```
 
+Then insert / replace the files from this repo into the initialized project. After that you should be able to run: 
+
+```
+cdk synth
+cdk init
+```
 
 ## Acknowledgements
 
