@@ -40,7 +40,7 @@ It should print the url of your api on your console.
 With the node script under `/tests/query_api.js` you can run a simple test of your deployed that returns your checksum address once directly from the key and once from the signature values `r`, `s` and `v`. The script has to be called like this:
 
 ```
-
+node query_api.js 'test' 'url'
 ```
 
 ## Acknowledgements
