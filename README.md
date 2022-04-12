@@ -28,6 +28,13 @@ cdk synth
 cdk init
 ```
 
+It should print the url of your api on your console. 
+
+## Tests
+
+With the node script under `/tests/query_api.js` you can run a simple test of your api that returns your checksum address once directly from the key and once from the signature values `r` and `s`.
+
+
 ## Acknowledgements
 
 This repository is based on the [blog post(s)](https://aws.amazon.com/de/blogs/database/part1-use-aws-kms-to-securely-manage-ethereum-accounts/) and the [repository](https://github.com/aws-samples/aws-kms-ethereum-accounts) by David Dornseifer.
