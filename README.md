@@ -1,6 +1,6 @@
 # aws-kms-api-ethereum
 
-***Disclaimer:** This project is work in progress and at the moment should not be used to manage keys that hold any real value!*
+***Disclaimer:** This project is work in progress and should not be used to manage keys that hold any real value!*
 
 This project is an AWS API service that signs messages through an AWS Lambda function that creates and accesses an AWS KMS customer master key (CMK). It enables ECDSA signatures compatible with Ethereum or other EVM-based blockchains, i.e. it uses the EVM-specific pre-fixes and deals with the v parameter as well. 
 
