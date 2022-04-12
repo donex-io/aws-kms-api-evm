@@ -4,7 +4,7 @@
 
 This project is an AWS API service that signs messages through an AWS Lambda function that creates and accesses an AWS KMS customer master key (CMK). It enables ECDSA signatures compatible with Ethereum or other EVM-based blockchains, i.e. it uses the EVM-specific pre-fixes and deals with the v parameter as well. 
 
-In the subfolder `/tutorial/aws_kms_lambda_ethereum/` another project is placed that mimics the functionality of the [repository by David Dornseifer](https://github.com/aws-samples/aws-kms-ethereum-accounts) but is adapted to AWS CDK v2. This project signs complete Ethereum transactions (legacy or EIP1559). The main project was based off of this tutorial.
+In the subfolder `/tutorial/aws_kms_lambda_ethereum/` another project is placed that mimics the functionality of the [repository by David Dornseifer](https://github.com/aws-samples/aws-kms-ethereum-accounts) but is adapted to AWS CDK v2. This project signs complete Ethereum transactions (legacy or EIP1559). The main API project was based off of this tutorial.
 
 
 ## Setup
