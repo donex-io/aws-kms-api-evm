@@ -11,8 +11,8 @@ In the subfolder `/tutorial/aws_kms_lambda_ethereum/` another project is placed 
 
 First make sure you have AWS CDK v2 up and running. These two tutorials can help: 
 
-https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html
-https://docs.aws.amazon.com/cdk/v2/guide/cli.html#cli-bootstrap
+- https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html
+- https://docs.aws.amazon.com/cdk/v2/guide/cli.html#cli-bootstrap
 
 To deploy either one of the above introduced projects you first have to initialize your project like this:
 
