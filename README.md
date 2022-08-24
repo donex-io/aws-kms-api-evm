@@ -1,4 +1,4 @@
-# aws-kms-api-ethereum
+# aws-kms-api-evm
 
 ***Disclaimer:** This project is work in progress and should not be used to manage keys that hold any real value!*
 
